@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129345463-1"></script>
     <script>
@@ -13,7 +14,9 @@
         gtag('config', 'UA-129345463-1');
     </script>
 
+
 </head>
+
 
 <div id="main-container">
 
@@ -21,9 +24,9 @@
 
     </div>
     <div id="construction-msg" >
-        <p>Hi there! Thanks for stopping by!</p>
-        <p>This site is currently under construction. Please stop by soon for something great!</p>
-        <p> - Justin</p>
+        <p>{{msg1}}</p>
+        <p>{{msg2}}</p>
+        <p>{{msg3}}</p>
     </div >
     <div style="height: 30%; width: 100%">
 
@@ -32,6 +35,6 @@
 
 </div>
 
-
+<script src="app.js"></script> <!-- Load vue app.js file -->
 
 </html>
