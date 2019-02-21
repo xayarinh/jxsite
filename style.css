@@ -3,9 +3,19 @@
     width: 100%;
 }
 
-#construction-msg {
+#construct-msg {
     height: 40%;
     width: 100%;
     text-align: center;
     font-family: 'Ubuntu Mono', monospace;
+    border: solid 1px black;
+}
+
+#logo {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 40%;
 }
